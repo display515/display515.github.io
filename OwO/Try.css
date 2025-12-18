@@ -1,0 +1,25 @@
+
+.Frame{
+    position: relative;
+    width: 350px;
+    height: 230px;
+    background: #fdf1dc;
+    border: 3px solid #8b4513
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Animate{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 175px solid transparent;
+    border-right: 175px solid transparent;
+    border-top: 120px solid #e6c9a8;
+    z-index: 3;
+}
+.text{
+    transform: translateX(-50x);
+}
