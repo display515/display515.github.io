@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 40px 0;
+    background-color: rgb(255, 182, 193);
+    background-image: url('Table.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Exo, sans-serif;
+}
+
+.Frame{
+    width: 600px;
+    min-height: 700px;
+    margin: auto;
+    position: relative;
+    padding: 60px 50px;
+    border: 5px solid brown;
+    border-radius: 20px;
+
+    background-color: #fdfcfa;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent 28px,
+        rgba(92, 51, 10, 0.3) 29px
+    );
+}
+
+h2{
+    font-family: Pacifico, cursive;
+    color: rgb(92, 51, 10);
+}
+img.owo{
+    position: absolute;
+    top: 20px;
+    right: 300px;
+    width: 100px;
+    height: auto;
+    
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(92, 51, 10);
+    text-indent: 40px;
+}
+p.second{
+    line-height: 28px;
+}
+p.third{
+    margin-top: 35px;
+    line-height: 28px;
+}
+
+.back-btn{
+    display: inline-block;
+    margin-top: 43px;
+    text-decoration: none;
+    font-family: Pacifico, cursive;
+    color: white;
+    background-color: #8b4513;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.next-btn{
+    display: inline-block;
+    margin-top: 43px;
+    margin-left: 275px;
+    text-decoration: none;
+    font-family: Pacifico, cursive;
+    color: white;
+    background-color: #8b4513;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
